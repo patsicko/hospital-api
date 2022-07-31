@@ -1,4 +1,33 @@
 .container{
-    height: 400px;
+   width: 80%;
+ 
+   height: auto;
+  
+    text-align: center;
+    
+
+
+}
+
+form{
+    background-color: rgb(153, 184, 211);
+    margin-top: 100px;
+    padding-top: 50px;
+    height: 700px;
+    width: 1000px;
+    margin-left: 400px;
+
+}
+
+input{
+    height: 40px;
+    width: 600px;
+}
+button{
+    height: 30px;
+    width: 100px;
     background-color: aqua;
+}
+::placeholder{
+    font-size: 1.5rem;
 }
